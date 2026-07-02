@@ -20,13 +20,13 @@ returns a JSON file with the following structure:
 ]
 ```
 
-Clone:
+## Clone
 
-```
-bash
+```bash
 git clone https://github.com/Davis-3450/github-metadata.git
 ```
 
+## Usage
 
 ```bash
 uv sync # install deps
@@ -35,7 +35,8 @@ uv run main.py # Run the script
 
 General access token is expected to be stored in a `.env` file in the root directory of the project, with the following format
 
-```
-bash
+## Environment Variables
+
+```bash
 GITHUB_TOKEN=your_personal_access_token
 ```
