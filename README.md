@@ -16,7 +16,7 @@ returns a JSON file with the following structure:
     "archived": false,
     "tags": ["tag1", "tag2"]
   },
-  ...
+  // ...
 ]
 ```
 
